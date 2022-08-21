@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3f44ded98f.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="proj-item">
+            <div class="proj-img">
+                <img src="./images/sanfran.jpeg" alt="">
+            </div>
+            <div class="proj-body">
+                <p class="head">MSDB</p>
+                <p class="sub-head">
+                    <span>11/03/2022</span>
+                    <span>
+                        <button><i class="fa fa-arrow-up"></i></button>
+                        <button><i class="fa fa-arrow-down"></i></button>
+                    </span>
+                </p>
+                <p class="desc">
+                    <p class="description">Description</p>
+                    <p class="para">
+                        It is a React.js based web application used to render all the information related to the movie. OMDB api is used in the development of this web app.
+                        Technologies used are React.js, Basic Bootstrap, Basic JSX.
+                    </p>
+                </p>
+            </div>
+        </div>
+
+        <div class="proj-item">
+            <div class="proj-img">
+                <img src="./images/sanfran.jpeg" alt="">
+            </div>
+            <div class="proj-body">
+                <p class="head">MSDB</p>
+                <p class="sub-head">
+                    <span>11/03/2022</span>
+                    <span>
+                        <button><i class="fa fa-arrow-up"></i></button>
+                        <button><i class="fa fa-arrow-down"></i></button>
+                    </span>
+                </p>
+                <p class="desc">
+                    <p class="description">Description</p>
+                    <p class="para">
+                        It is a React.js based web application used to render all the information related to the movie. OMDB api is used in the development of this web app.
+                        Technologies used are React.js, Basic Bootstrap, Basic JSX.
+                    </p>
+                </p>
+            </div>
+        </div>
+
+        <div class="proj-item">
+            <div class="proj-img">
+                <img src="./images/sanfran.jpeg" alt="">
+            </div>
+            <div class="proj-body">
+                <p class="head">MSDB</p>
+                <p class="sub-head">
+                    <span>11/03/2022</span>
+                    <span>
+                        <button><i class="fa fa-arrow-up"></i></button>
+                        <button><i class="fa fa-arrow-down"></i></button>
+                    </span>
+                </p>
+                <p class="desc">
+                    <p class="description">Description</p>
+                    <p class="para">
+                        It is a React.js based web application used to render all the information related to the movie. OMDB api is used in the development of this web app.
+                        Technologies used are React.js, Basic Bootstrap, Basic JSX.
+                    </p>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        
+        const acc = document.getElementsByClassName("proj-item");
+
+        for(i=0; i<=acc.length; i++){
+            acc[i].addEventListener("click" , function(){
+                this.classList.toggle("active");
+            }
+            )
+        }
+
+    </script>
+</body>
+</html>
